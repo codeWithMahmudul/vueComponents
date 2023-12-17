@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>{{ name }}'s username is:{{ username }}</h2>
+        <h2>{{ name }}'s username is :{{ username }}</h2>
     </div>
 </template>
 
