@@ -1,7 +1,9 @@
 <template>
   <h2>{{ name }}</h2>
   <h2>Test</h2>  
-  <h2>Test3</h2>  
+  <h2>Test3</h2>
+
+  <h3>Added</h3>
   
   ddddd
   <ComponentC />
