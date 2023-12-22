@@ -1,24 +1,23 @@
 <template>
-  <Card>Component Content</Card>
-  <Card>
-    <h2>Heading 2</h2>
-  </Card>
+  <NameList>
+    <template v-slot:default="slotProps">
+      {{ slotProps.user.firstName }} {{ slotProps.user.lastName }}
+    </template>
+  </NameList>
 </template>
 
 <script>
-import Card from './components/Card.vue'
+import NameList from "./components/NameList.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Card
+    NameList,
   },
   data() {
-    return {
-
-    }
-  }
-}
+    return {};
+  },
+};
 </script>
 
 <style>
