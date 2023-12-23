@@ -1,18 +1,28 @@
 <template>
-  <ChildStyle />
-  <h2>App conponent text</h2>
+  <button @click="activeTab = 'TabA'">Tab A</button>
+  <button @click="activeTab = 'TabB'">Tab B</button>
+  <button @click="activeTab = 'TabC'">Tab C</button>
+  <keep-alive>
+    <component :is="activeTab" />
+  </keep-alive>f
 </template>
 
 <script>
-import ChildStyle from "./components/ChildStyle.vue";
+import TabA from "./components/TabA.vue";
+import TabB from "./components/TabB.vue";
+import TabC from "./components/TabC.vue";
 
 export default {
   name: "App",
   components: {
-    ChildStyle,
+    TabA,
+    TabB,
+    TabC,
   },
   data() {
-    return {};
+    return {
+      activeTab: "TabA",
+    };
   },
 };
 </script>
