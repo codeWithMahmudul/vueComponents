@@ -1,16 +1,13 @@
 <template>
-  <teleport to="#portal-root">
-    <Portal />
-  </teleport>
+  <Posts />
 </template>
 
 <script>
-import Portal from "./components/Portal.vue";
-
+import Posts from "./components/Posts.vue";
 export default {
   name: "App",
   components: {
-    Portal,
+    Posts,
   },
   data() {
     return {};
