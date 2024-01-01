@@ -1,17 +1,14 @@
 <template>
-  <Posts />
+  <Parent />
 </template>
 
 <script>
-import Posts from "./components/Posts.vue";
+import Parent from "./components/Parent.vue";
 export default {
   name: "App",
   components: {
-    Posts,
-  },
-  data() {
-    return {};
-  },
+    Parent,
+  }
 };
 </script>
 
