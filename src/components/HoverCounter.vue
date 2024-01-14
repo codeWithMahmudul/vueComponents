@@ -1,18 +1,13 @@
 <template>
   <div>
-    <button @click="incrementCount">Clicked {{ count }} times</button>
+    <h1 @mouseover="incrementCount">Hovered {{ count }} times</h1>
   </div>
 </template>
 
 <script>
 import CounterMixin from "../mixins/counter";
 export default {
-  name: "ClickCounter",
-  data() {
-    return {
-      count: 100,
-    };
-  },
+  name: "HoverCounter",
   mixins: [CounterMixin],
 };
 </script>
