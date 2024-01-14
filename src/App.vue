@@ -1,14 +1,14 @@
 <template>
-  <Parent />
+  <TemplateRef />
 </template>
 
 <script>
-import Parent from "./components/Parent.vue";
+import TemplateRef from "./components/TemplateRef.vue";
 export default {
   name: "App",
   components: {
-    Parent,
-  }
+    TemplateRef,
+  },
 };
 </script>
 
