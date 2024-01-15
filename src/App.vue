@@ -1,14 +1,13 @@
 <template>
-  <Data />
+  <DemoTwo />
 </template>
 
 <script>
-import { ref } from 'vue'
-import Data from "./components/Data.vue";
+import DemoTwo from "./components/DemoTwo.vue";
 export default {
   name: "App",
   components: {
-    Data,
+    DemoTwo,
   },
 };
 </script>
