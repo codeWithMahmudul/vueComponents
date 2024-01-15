@@ -1,16 +1,14 @@
 <template>
-  <ClickCounter />
-  <HoverCounter />
+  <Data />
 </template>
 
 <script>
-import ClickCounter from "./components/ClickCounter.vue";
-import HoverCounter from "./components/HoverCounter.vue";
+import { ref } from 'vue'
+import Data from "./components/Data.vue";
 export default {
   name: "App",
   components: {
-    ClickCounter,
-    HoverCounter,
+    Data,
   },
 };
 </script>
@@ -23,8 +21,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
-h2 {
-  color: orange;
 }
 </style>
