@@ -1,18 +1,18 @@
 <template>
-  <Methods />
+  <VModel />
 </template>
 
 <script>
-import Methods from "./components/Methods.vue";
+import VModel from "./components/VModel.vue";
 export default {
   name: "App",
   components: {
-    Methods,
+    VModel,
   },
 };
 </script>
 
-<style>
+<style>VModel
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
