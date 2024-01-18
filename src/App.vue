@@ -1,13 +1,13 @@
 <template>
-  <Watch />
+  <WatchReactive />
 </template>
 
 <script>
-import Watch from "./components/Watch.vue";
+import WatchReactive from "./components/WatchReactive.vue";
 export default {
   name: "App",
   components: {
-    Watch,
+    WatchReactive,
   },
 };
 </script>
