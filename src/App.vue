@@ -1,13 +1,13 @@
 <template>
-  <WatchReactive />
+  <ProvideInject />
 </template>
 
 <script>
-import WatchReactive from "./components/WatchReactive.vue";
+import ProvideInject from "./components/ProvideInject.vue";
 export default {
   name: "App",
   components: {
-    WatchReactive,
+    ProvideInject,
   },
 };
 </script>
