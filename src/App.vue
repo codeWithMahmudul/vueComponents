@@ -1,19 +1,19 @@
 <template>
-  <Computed />
+  <Watch />
 </template>
 
 <script>
-import Computed from "./components/Computed.vue";
+import Watch from "./components/Watch.vue";
 export default {
   name: "App",
   components: {
-    Computed,
+    Watch,
   },
 };
 </script>
 
-<style>VModel
-#app {
+<style>
+VModel #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
